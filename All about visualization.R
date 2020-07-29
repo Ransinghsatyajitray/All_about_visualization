@@ -885,3 +885,11 @@ faithful %>%
                                           "diamond", "triangle-up", "triangle-down")),
         fill := input_radiobuttons(label="Choose color:",choices=c("black", "red", "blue","green"))) %>%
   layer_points()
+
+                                                            
+
+                                                            
+# Other very useful packages 
+library(DataExplorer)  ---- it has many function that help in exploring the data
+                                                            
+library(patchwork)   ---- make it possible to use +, / etc on the graph                                                                                        
